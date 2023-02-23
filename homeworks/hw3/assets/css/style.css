@@ -1,0 +1,195 @@
+/* PROBLEM 1: Remove white margin of body, html */
+html, body {
+    margin: 0;
+    background-color: y;
+}
+
+/* PROBLEM 2: Select profile picture and make it round */
+#header #profile-pic {
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+   
+    
+
+}
+
+#folow-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-color: solid blue;
+     
+}
+
+#pictures .item {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    
+
+}
+
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+   
+}
+
+.navbar-item {
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.item:hover {
+    opacity: 100%;
+    transition-duration: .2s;
+
+}
+
+#follow-button:active {
+    font-size: 18px;
+
+}
+
+#nav-bar:hover {
+    opacity: 200%;
+
+}
+
+#follow-button:active {
+    cursor: pointer;
+}
+
+#pictures .item:active {
+   cursor:  pointer;
+}
+
+#navbar .navbar-item:active {
+    cursor: pointer;
+
+}
+
+#information {
+    margin: 20px;
+}
+
+#information #username {
+    width: 400px;
+    font-family:Arial, Helvetica, serif;
+    font-size: 40px; 
+    margin-bottom: 40px;
+
+    
+}
+
+#information #username:hover {
+    text-decoration: underline;
+}
+
+#navbar .item {
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+#navbar:hover {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#information {
+    display: inline-block;
+    margin: 20px;
+
+}
+
+#follow-button {
+    width: 80px;
+    background-color: blue;
+    margin: 20px;
+    font-size: 20x;
+    color: white;
+    
+
+}
+#about {
+    font-size: 12px;
+    margin: 20px;
+}
+
+#follow-button:hover {
+    opacity: 20%;
+}
+
+#about {
+    font-family: Arial, sans-serif;
+    font-size: 18px; 
+    margin: 10px;
+}
+
+#about:hover {
+    text-decoration: underline;
+}
+
+#navbar .navbar-item {
+    display: inline-block;
+    float: left;
+ 
+    background-color: white;
+    padding: 10px;
+    border: 10px solid skyblue;
+    padding: 30px;	
+
+    
+    
+    
+    
+}
+
+#pictures {
+    background-color: lightgrey;
+
+    width: 800px;
+}
+
+
+
+
+/* PROBLEM 3: Flesh our your follow button! 5 px for the
+top and bottom, 30 for the left and right*/
+/* YOUR CODE HERE */
+
+/* PROBLEM 4: Turn items into a square, 120x120 px image */
+/* YOUR CODE HERE */
+
+/* PROBLEM 5: Create a 10 px horizontal space between items */
+/* YOUR CODE HERE */
+
+/* PROBLEM 6: Create a 10px vertical space between rows */
+/* YOUR CODE HERE */
+
+/* PROBLEM 7: Add 20px of space between each navigation item */
+/* YOUR CODE HERE */
+
+/* PROBLEM 8: Create a hover effect, so that items will have
+full opacity when hovered over! It should also have a
+transition period of 0.2 seconds*/
+/* YOUR CODE HERE */
+
+/* PROBLEM 9: Add a click effect to the follow button, so
+the font becomes size 18 px when clicked on - as a result, the button will become
+larger when clicked on!*/
+/* YOUR CODE HERE */
+
+/* PROBLEM 10: Add a hover effect such that the text of the
+navigation has an opacity of 1 when hovered over!*/
+/* YOUR CODE HERE */
+
+/* PROBLEM 11: In one selection, make the follow button, picture
+items, and nav bar items have a pointer cursor */
